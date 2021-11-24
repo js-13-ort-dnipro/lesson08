@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Countries App</title>
+
+        <link rel="shortcut icon" href="./assets/images/favicon.png">
+
+        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+        <link rel="stylesheet" href="./assets/css/font-awesome.css">
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+        <script src="./assets/js/app.js"></script>
+
+    </head>
+    <body>
+        
+        <div class="container my-5" id="app">
+            
+            <h1>Countries App</h1>
+
+            <input type="text" placeholder="Search" class='d-block my-3 ml-auto'>
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">
+                        Name
+                        <button class='btn btn-outline-secondary'>
+                          <i class="fas fa-angle-down"></i>
+                        </button>
+                    </th>
+                    <th scope="col">
+                        Code
+                        <button class='btn btn-outline-secondary'>
+                          <i class="fas fa-angle-down"></i>
+                        </button>
+                    </th>
+                    <th scope="col">
+                        Capital
+                        <button class='btn btn-outline-secondary'>
+                          <i class="fas fa-angle-down"></i>
+                        </button>  
+                    </th>
+                    <th scope="col">
+                        Flag
+                    </th>
+                    <th scope="col">
+                        Borders
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                  <tr>
+                    <td>Austria</td>
+                    <td>AT (AUT)</td>
+                    <td>Vienna</td>
+                    <td><img style='width:42px' class='shadow border' src='https://restcountries.eu/data/aut.svg'></td>
+                    <td>
+                  
+                        <img style='width:32px' class='shadow border' src='https://restcountries.eu/data/cze.svg' title='Czech'>
+                 
+                        <img style='width:32px' class='shadow border' src='https://restcountries.eu/data/ita.svg' title='Italy'>
+                
+                        <img style='width:32px' class='shadow border' src='https://restcountries.eu/data/deu.svg' title='Deutschland'>
+               
+                        <img style='width:32px' class='shadow border' src='https://restcountries.eu/data/fra.svg' title='France'>
+                 
+                    </td>
+                  </tr>
+                
+                </tbody>
+              </table>
+
+        </div>
+
+    </body>
+</html>
